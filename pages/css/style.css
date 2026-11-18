@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(86, 54, 109);
+}
+
+.header-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-container h1{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.header-container h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 200;
+}
+
+.mid-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 10vh;
+
+}
+
+.mini-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 30px;
+    background-color: rgb(35, 22, 44);
+    border-radius: 7px;
+}
+
+.mini-button h2{
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.large-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 70px;
+    background-color: rgb(35, 22, 44);
+    border-radius: 7px;
+}
+
+.large-button h2{
+    margin-top: 0px;
+}
+
+.loading-bar{
+    width:  500px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 2px solid rgb(35, 22, 44);
+}
+
+.terminal-program{
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(35, 22, 44);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-program p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mini-button:hover{
+    cursor: pointer;
+}
+
+.large-button:hover{
+    cursor: pointer;
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(35, 22, 44);
+    border-radius: 7px;
+}
+
+.button h2{
+    margin: 0px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
